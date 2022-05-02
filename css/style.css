@@ -3,67 +3,88 @@
     margin: 0;
     padding: 0;
 }
-h1{
-    color: blue;
-}
-.g1{
-    margin: 250px,500px,290px,500px;
-    text-align: center;
-}
 body{
      background-color: white;
      font-size: 14px;
      font-family: arial,sans-serif;
      color: #202124;
 }
+.nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
 ul{
     display: flex;
-    flex-direction: row;
-    justify-content: flex-end;
 }
- li{
+li{
     list-style-type: none;
     margin: 8px;
 }
-.nav1.left{
-    display: flex;
-    align-items: center;
-    justify-content: left;
-}
-.nav2 {
-    justify-content: flex-end;
-    display: flex;
-}
-.img-container{
-    display:flex;
-    justify-content: center;
-    margin-top: 40px;
-}
-.search{
-      outline: 0;
-      padding: 5px;
-      margin: 20px;
-      width: 500px;
-      border-radius: 10px;
-}
-.search-button{
-    display: flex ;
-    justify-content: center; 
-    align-items: center;
-}
-button{
-    margin: 5px;
+.items-center{
+    text-align: center;
 }
 a{
     text-decoration: none;
     color: black;
 }
+body, input, button,.btn {
+    font-size: 14px;
+    font-family: arial,sans-serif;
+    color: #202124;
+}
 a:hover{
     color: blue;
     text-decoration: underline;
 }
-.container{
-        display: flex;
-        align-items: center;
-        justify-content: center;
+.btn{
+    margin-top:20px;
+}
+.items-center{
+    margin-top: 50px;
+
+}
+.g-image{
+    margin-top: 5%;
+}
+body, input, button {
+    font-size: 14px;
+    font-family: arial,sans-serif;
+    color: #202124;
+}
+
+#search{
+    outline: 0;
+}
+.btn, input[type="submit"], .btn {
+    background-color: #f8f9fa;
+    border: 1px solid #f8f9fa;
+    border-radius: 4px;
+    color: #3c4043;
+    font-family: arial,sans-serif;
+    font-size: 14px;
+    margin: 11px 4px;
+    padding: 0 16px;
+    line-height: 27px;
+    height: 36px;
+    min-width: 54px;
+    text-align: center;
+    cursor: pointer;
+    user-select: none;
+}
+input.search
+{
+    background-color: transparent;
+    border: none;
+    margin: 0;
+    padding: 0;
+    color: rgba(0,0,0,.87);
+    word-wrap: break-word;
+    outline: none;
+    display: flex;
+    flex: 100%;
+    -webkit-tap-highlight-color: transparent;
+    margin-top: -37px;
+    height: 34px;
+    font-size: 16px;
 }
